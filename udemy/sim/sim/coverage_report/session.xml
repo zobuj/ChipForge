@@ -1,0 +1,27 @@
+<session version="1.1" release="W-2024.09" timestp="2025-03-20 22:33:34 GMT">
+  <info>
+    <attr name="datetime" value="Thu Mar 20 17:33:37 2025
+"/>
+    <attr name="command" value="urg -dir ./simv.vdb -report coverage_report"/>
+    <attr name="top_instance" value="gen_top"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="93.75%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit(/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv)::cg">
+      <metric name="Group" value="93.75%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

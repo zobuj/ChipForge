@@ -1,0 +1,12 @@
+Command: /home/lorenzo9/Documents/ChipForge/single_port_ram/sim/sim/./top_tb -l simulation.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09_Full64; Runtime version W-2024.09_Full64;  Jan 28 11:15 2025
+Data at 0xFF: 0xec
+Data at 0x100: 0xeb
+$finish called from file "/home/lorenzo9/Documents/ChipForge/single_port_ram/sim/../hvl/top_tb.sv", line 69.
+$finish at simulation time                85000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 85000 ps
+CPU Time:      0.310 seconds;       Data structure size:   0.0Mb
+Tue Jan 28 11:15:48 2025

@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib:/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/bin/vcsfind_create_index.exe  -z  "/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/gen_top.daidir/debug_dump/fsearch/./idents_X5TL26.xml.gz" "/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/gen_top.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/gen_top.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/gen_top.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/gen_top.daidir/debug_dump/fsearch/fsearch.db"

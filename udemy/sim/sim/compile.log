@@ -1,0 +1,102 @@
+Command: vcs /home/lorenzo9/Documents/ChipForge/udemy/sim/../hdl/and.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/thread.sv \
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/first_class.sv \
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/inheritance.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/swap.sv \
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/mult_test.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/a53.sv \
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv -full64 -lca -sverilog \
+-timescale=1ns/1ns -debug_acc+all -kdb -debug_access+all -suppress=LCA_FEATURES_ENABLED \
++incdir+/software/Synopsys-2024_x86_64/icc/W-2024.09/dw/sim_ver +define+DW_SUPPRESS_WARN \
+-cm line+cond+fsm+tgl+branch -cm_dir ./simv.vdb -msg_config=../vcs_warn.config -l \
+compile.log -top gen_top -o gen_top
+                         Chronologic VCS (TM)
+         Version W-2024.09_Full64 -- Thu Mar 20 17:33:27 2025
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hdl/and.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/thread.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/first_class.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/inheritance.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/swap.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/mult_test.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/a53.sv'
+Parsing design file '/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv'
+Top Level Modules:
+       gen_top
+TimeScale is 1 ns / 1 ns
+
+Lint-[WMIA-L] Width mismatch in assignment
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv, 3
+  Width mismatch between LHS and RHS is found in assignment:
+  The following 32-bit wide expression is assigned to a 4-bit LHS target:
+  Source info: this.a = 5;
+  Expression: this.a
+
+
+Lint-[WMIA-L] Width mismatch in assignment
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv, 3
+  Width mismatch between LHS and RHS is found in assignment:
+  The following 32-bit wide expression is assigned to a 4-bit LHS target:
+  Source info: this.b = 7;
+  Expression: this.b
+
+
+Lint-[WMIA-L] Width mismatch in assignment
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv, 4
+  Width mismatch between LHS and RHS is found in assignment:
+  The following 32-bit wide expression is assigned to a 1-bit LHS target:
+  Source info: this.wr = 1;
+  Expression: this.wr
+
+
+Lint-[WMIA-L] Width mismatch in assignment
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv, 5
+  Width mismatch between LHS and RHS is found in assignment:
+  The following 32-bit wide expression is assigned to a 1-bit LHS target:
+  Source info: this.en = 1;
+  Expression: this.en
+
+
+Lint-[WMIA-L] Width mismatch in assignment
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv, 6
+  Width mismatch between LHS and RHS is found in assignment:
+  The following 32-bit wide expression is assigned to a 5-bit LHS target:
+  Source info: this.s = 12;
+  Expression: this.s
+
+VCS Coverage Metrics Release W-2024.09_Full64 Copyright (c) 1991-2024 by Synopsys Inc.
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module gen_top
+make[1]: Entering directory `/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../gen_top ]; then chmod a-x ../gen_top; fi
+g++  -o ../gen_top      -rdynamic  -Wl,-rpath='$ORIGIN'/gen_top.daidir -Wl,-rpath=./gen_top.daidir \
+-Wl,-rpath=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib -L/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _211611_archive_1.so \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -lreader_common /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libBA.a \
+-luclinative /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcs_tls.o  \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o /software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -lc -lm -lpthread -ldl 
+../gen_top up to date
+make[1]: Leaving directory `/home/lorenzo9/Documents/ChipForge/udemy/sim/sim/csrc' \
+
+CPU time: .816 seconds to compile + .325 seconds to elab + .938 seconds to link
+Verdi KDB elaboration done and the database successfully generated

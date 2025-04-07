@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1742510007.404984711, "rt":1.14, "ut":0.22, "st":0.45}}
+{"vcselab":{"timestamp_begin":1742510008.741517013, "rt":0.38, "ut":0.19, "st":0.06}}
+{"link":{"timestamp_begin":1742510009.283731978, "rt":0.80, "ut":0.22, "st":0.36}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1742510005.655768308}
+{"VCS_COMP_START_TIME": 1742510005.655768308}
+{"VCS_COMP_END_TIME": 1742510010.771811198}
+{"VCS_USER_OPTIONS": "/home/lorenzo9/Documents/ChipForge/udemy/sim/../hdl/and.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/thread.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/first_class.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/inheritance.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/swap.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/mult_test.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/a53.sv /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv -full64 -lca -sverilog -timescale=1ns/1ns -debug_acc+all -kdb -debug_access+all -suppress=LCA_FEATURES_ENABLED +incdir+/software/Synopsys-2024_x86_64/icc/W-2024.09/dw/sim_ver +define+DW_SUPPRESS_WARN -cm line+cond+fsm+tgl+branch -cm_dir ./simv.vdb -msg_config=../vcs_warn.config -l compile.log -top gen_top -o gen_top"}
+{"vcs1": {"peak_mem": 491388}}
+{"vcselab": {"peak_mem": 176040}}

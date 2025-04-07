@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1737998354.181391125, "rt":1.01, "ut":0.17, "st":0.40}}
+{"vcselab":{"timestamp_begin":1737998355.386795612, "rt":0.37, "ut":0.17, "st":0.04}}
+{"link":{"timestamp_begin":1737998355.911409941, "rt":0.78, "ut":0.20, "st":0.37}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1737998352.796971859}
+{"VCS_COMP_START_TIME": 1737998352.796971859}
+{"VCS_COMP_END_TIME": 1737998357.385688856}
+{"VCS_USER_OPTIONS": "/home/lorenzo9/Documents/ChipForge/verification/sim/top_tb.sv -full64 -lca -sverilog -timescale=1ns/1ns -debug_acc+all -kdb -debug_access+all -suppress=LCA_FEATURES_ENABLED +incdir+/software/Synopsys-2024_x86_64/icc/W-2024.09/dw/sim_ver +define+DW_SUPPRESS_WARN -msg_config=../vcs_warn.config -l compile.log -top top_tb -o top_tb"}
+{"vcs1": {"peak_mem": 490664}}
+{"vcselab": {"peak_mem": 176040}}

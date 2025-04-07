@@ -1,0 +1,207 @@
+0
+63
++define+DW_SUPPRESS_WARN
++incdir+/software/Synopsys-2024_x86_64/icc/W-2024.09/dw/sim_ver
++itf+/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/software/Synopsys-2024_x86_64/vcs/W-2024.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvirsim.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/liberrorinf.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvfs.so
+-Mout=gen_top
+-Msaverestoreobj=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/software/Synopsys-2024_x86_64/vcs/W-2024.09/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-Xufe=2steps
+-Xufe=2steps
+-Xufe=2steps
+-cm
+-cm_dir
+-debug_acc+all
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-kdb=common_elab
+-kdb=common_elab
+-kdb=common_elab
+-l
+-lca
+-msg_config=../vcs_warn.config
+-o gen_top
+-picarchive
+-suppress=LCA_FEATURES_ENABLED
+-sverilog
+-timescale=1ns/1ns
+-top
+/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/bin/vcs1
+compile.log
+line+cond+fsm+tgl+branch
+./simv.vdb
+gen_top
+gen_top
+/software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hdl/and.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/thread.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/first_class.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/inheritance.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/swap.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/mult_test.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/a53.sv
+/home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv
+118
+which_declare=declare -f
+apath=/usr/bin/acroread
+acroread_path=/usr/bin/acroread
+__LMOD_STACK_apath=L3Vzci9iaW4vYWNyb3JlYWQ=
+__LMOD_STACK_acroread_path=L3Vzci9iaW4vYWNyb3JlYWQ=
+__LMOD_STACK_VERDI_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L3ZlcmRpL1ctMjAyNC4wOQ==
+__LMOD_STACK_VCS_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L3Zjcy9XLTIwMjQuMDk=
+__LMOD_STACK_SYNOPSYS_LC_ROOT=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L2xjL1ctMjAyNC4wOQ==
+__LMOD_STACK_MGC_HOME=L3NvZnR3YXJlL2NhbGlicmUtYW9rXzIwMjQuMV8yOC4xNi9hb2tfY2FsXzIwMjQuMV8yOC4xNg==
+__LMOD_STACK_CALIBRE_HOME=L3NvZnR3YXJlL2NhbGlicmUtYW9rXzIwMjQuMV8yOC4xNi9hb2tfY2FsXzIwMjQuMV8yOC4xNg==
+__LMOD_REF_COUNT_SALT_LICENSE_SERVER=1717@mentor.webstore.illinois.edu:1
+__LMOD_REF_COUNT_PATH=/software/Synopsys-2024_x86_64/verdi/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcs/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/zoix/W-2024.09/vcs-mx/bin:1;/software/Synopsys-2024_x86_64/dftview/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/rtl_tcm/bin:1;/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcap/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcps/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/hspice/W-2024.09/hspice/bin:1;/software/Synopsys-2024_x86_64/coretools/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/esp/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/finesim/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fm/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/hsim/V-2023.12-SP2/hsimplus/bin:1;/software/Synopsys-2024_x86_64/icc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icc2/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icv_workbench/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icvalidator/W-2024.09-1/bin:1;/software/Synopsys-2024_x86_64/lakertcd/L-2024.09/bin:1;/software/Synopsys-2024_x86_64/lc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/mw/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/nt/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/pcm_studio/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/prime/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/raphael_fx/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/sentaurus/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/siliconsmart/V-2023.12-SP5-1/bin:1;/software/Synopsys-2024_x86_64/spx/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/spyglass/W-2024.09/SPYGLASS_HOME/bin:1;/software/Synopsys-2024_x86_64/starrc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/syn/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/txs/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vgen/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vtran/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vui/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/wv/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_static/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/3dic/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/ale/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cck/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/certitude/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/GNUPLOT/bin:1;/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/bin:1;/software/Synopsys-2024_x86_64/cf/W-2024.09/GNUPLOT/bin:1;/software/Synopsys-2024_x86_64/cf/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cmlp/T-2022.03/bin:1;/software/Synopsys-2024_x86_64/cmlp/T-2022.03/cerberus-nfs/bin:1;/software/Synopsys-2024_x86_64/custominfrastructure/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/custominfrastructure/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/embedit/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/helix/K-2015.09-1/bin:1;/software/Synopsys-2024_x86_64/helix/K-2015.09-1/plat_linux_gcc483_64/bin:1;/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/automation/bin:1;/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/fpm_FC_saed32/bin:1;/software/Synopsys-2024_x86_64/mvtools/K-2015.09-SP1/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/optodesigner/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/rsoft/bin:1;/software/Synopsys-2024_x86_64/pprtl/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/dsoai/bin:1;/software/Synopsys-2024_x86_64/primelib/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_di/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_dr/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_emir/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/container/bin:1;/software/Synopsys-2024_x86_64/primewave/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/primewave/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primewavereliability/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/primewavereliability/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/atkpython/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/mpi/bin:1;/software/Synopsys-2024_x86_64/quickcap/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quickcap/W-2024.09/common/bin:1;/software/Synopsys-2024_x86_64/rh_analysis_fusion/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/rhsc_analysis_fusion/W-2024.09/linux_x86_64_rhel7_ece/bin:1;/software/Synopsys-2024_x86_64/rhsc_electrothermal_analysis_fusion/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/bin:1;/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/rtl_tcm/bin:1;/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/32/bin:1;/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/64/bin:1;/software/Synopsys-2024_x86_64/siwb_workbench/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/slitho/V-2024.09/bin:1;/software/Synopsys-2024_x86_64/smetro/V-2024.09/bin:1;/software/Synopsys-2024_x86_64/snps_container/2.0/bin:1;/software/Synopsys-2024_x86_64/spxviewer/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/tcm/V-2023.12-SP5-1/bin:1;/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/bin:1;/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/embedit/bin:1;/software/Synopsys-2024_x86_64/testmax/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/testmax/W-2024.09/embedit/bin:1;/software/Synopsys-2024_x86_64/tweaker/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/certitude/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/genfv/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/hector/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/json-diff/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/verdi/bin:1;/software/Synopsys-2024_x86_64/vc_functional_safety_manager/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_ml_platform/2019.06/mlplatform/bin:1;/software/Synopsys-2024_x86_64/vc_replay/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/verdi/V-2023.12/bin:1;/software/Synopsys-2024_x86_64/verdi/V-2023.12/gperf-1.5/bin:1;/software/Synopsys-2024_x86_64/verdi/W-2024.09/gperf-1.5/bin:1;/software/Synopsys-2024_x86_64/verdi_supp/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/ML_sim_predict/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/ava/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/zoix/W-2024.09/bin:1;/software/calibre-aok_2024.1_28.16/aok_cal_2024.1_28.16/bin:1;/software/cadence-2024-08/XCELIUM2403/tools.lnx86/bin:1;/software/cadence-2024-08/XCELIUM2403/share/bin:1;/software/cadence-2024-08/XCELIUM2403/bin:1;/software/cadence-2024-08/VMANAGER2403/tools/bin:1;/software/cadence-2024-08/VMANAGER2403/bin:1;/software/cadence-2024-08/VERISIUMDEBUG2403/tools/bin:1;/software/cadence-2024-08/VERISIUMDEBUG2403/bin:1;/software/cadence-2024-08/WXE2303/tools/bin:1;/software/cadence-2024-08/WXE2303/share/uxe/bin:1;/software/cadence-2024-08/WXE2303/bin:1;/software/cadence-2024-08/ULTRASIM181/tools.lnx86/bin:1;/software/cadence-2024-08/ULTRASIM181/share/bin:1;/software/cadence-2024-08/ULTRASIM181/bin:1;/software/cadence-2024-08/STRATUS2401/tools.lnx86/bin:1;/software/cadence-2024-08/STRATUS2401/share/bin:1;/software/cadence-2024-08/STRATUS2401/bin:1;/software/cadence-2024-08/SSV231/tools.lnx86/bin:1;/software/cadence-2024-08/SSV231/share/bin:1;/software/cadence-2024-08/SSV231/bin:1;/software/cadence-2024-08/SPECTRE231/tools.lnx86/bin:1;/software/cadence-2024-08/SPECTRE231/share/bin:1;/software/cadence-2024-08/SPECTRE231/bin:1;/software/cadence-2024-08/SPB231/tools.lnx86/bin:1;/software/cadence-2024-08/SPB231/share/bin:1;/software/cadence-2024-08/SPB231/bin:1;/software/cadence-2024-08/SIGRITY20240/tools.lnx86/bin:1;/software/cadence-2024-08/SIGRITY20240/share/bin:1;/software/cadence-2024-08/SIGRITY20240/bin:1;/software/cadence-2024-08/QUANTUS231/tools.lnx86/bin:1;/software/cadence-2024-08/QUANTUS231/share/bin:1;/software/cadence-2024-08/QUANTUS231/bin:1;/software/cadence-2024-08/PVS231/tools.lnx86/bin:1;/software/cadence-2024-08/PVS231/share/bin:1;/software/cadence-2024-08/PVS231/bin:1;/software/cadence-2024-08/PEGASUS232/tools.lnx86/bin:1;/software/cadence-2024-08/PEGASUS232/share/bin:1;/software/cadence-2024-08/PEGASUS232/bin:1;/software/cadence-2024-08/MVS211/tools.lnx86/bin:1;/software/cadence-2024-08/MVS211/bin:1;/software/cadence-2024-08/MODUS231/tools.lnx86/bin:1;/software/cadence-2024-08/MODUS231/share/bin:1;/software/cadence-2024-08/MODUS231/bin:1;/software/cadence-2024-08/LIBERATE231/tools.lnx86/bin:1;/software/cadence-2024-08/LIBERATE231/share/bin:1;/software/cadence-2024-08/LIBERATE231/bin:1;/software/cadence-2024-08/JLS211/tools.lnx86/bin:1;/software/cadence-2024-08/JLS211/share/bin:1;/software/cadence-2024-08/JLS211/bin:1;/software/cadence-2024-08/INTEGRAND63/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/bin:1;/software/cadence-2024-08/INTEGRAND63/tools.lnx86/bin:1;/software/cadence-2024-08/INTEGRAND63/bin:1;/software/cadence-2024-08/INNOVUS211/tools.lnx86/bin:1;/software/cadence-2024-08/INNOVUS211/share/bin:1;/software/cadence-2024-08/INNOVUS211/bin:1;/software/cadence-2024-08/INCISIVE152/tools.lnx86/bin:1;/software/cadence-2024-08/INCISIVE152/share/bin:1;/software/cadence-2024-08/INCISIVE152/bin:1;/software/cadence-2024-08/IC231/bin:1;/software/cadence-2024-08/IC231/tools.lnx86/leapfrog/bin:1;/software/cadence-2024-08/IC231/tools.lnx86/bin:1;/software/cadence-2024-08/IC231/share/bin:1;/software/cadence-2024-08/IC231/tools.lnx86/dfII/bin:1;/software/cadence-2024-08/ICADVM201/tools.lnx86/bin:1;/software/cadence-2024-08/ICADVM201/share/bin:1;/software/cadence-2024-08/ICADVM201/bin:1;/software/cadence-2024-08/GENUS211/tools.lnx86/bin:1;/software/cadence-2024-08/GENUS211/share/bin:1;/software/cadence-2024-08/GENUS211/bin:1;/software/cadence-2024-08/CONFRML241/tools.lnx86/bin:1;/software/cadence-2024-08/CONFRML241/share/bin:1;/software/cadence-2024-08/CONFRML241/bin:1;/software/cadence-2024-08/CADENCEHELP/tools.lnx86/bin:1;/software/cadence-2024-08/CADENCEHELP/bin:1;/software/cadence-2024-08/CADENCEHELP/share/cdnshelp/bin:1;/software/cadence-2024-08/CADENCEHELP/share/bin:1;/software/cadence-2024-08/ASSURA41/tools.lnx86/bin:1;/software/cadence-2024-08/ASSURA41/share/bin:1;/software/cadence-2024-08/ASSURA41/bin:1;/home/lorenzo9/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/bin/remote-cli:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/software/ews/bin:3;/class/ece411/riscv/bin:3;/class/ece411/verilator/bin:1;/class/ece411/cacti:1;/home/lorenzo9/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:1
+__LMOD_REF_COUNT_MODULEPATH=/usr/share/modulefiles:1;/usr/share/Modules/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/etc/modulefiles/env:1;/etc/modulefiles/class:1;/etc/modulefiles/ews_software:1
+__LMOD_REF_COUNT_LM_LICENSE_FILE=27005@synopsys.webstore.illinois.edu:1;5280@cadence.webstore.illinois.edu:1
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/software/Synopsys-2024_x86_64/syn/W-2024.09/linux64/tcl/lib:1;/software/cadence-2024-08/XCELIUM2403/tools.lnx86/lib:1;/software/cadence-2024-08/VMANAGER2403/tools/lib:1;/software/cadence-2024-08/VMANAGER2403/lib:1;/software/cadence-2024-08/VERISIUMDEBUG2403/tools/lib:1;/software/cadence-2024-08/VERISIUMDEBUG2403/lib:1;/software/cadence-2024-08/WXE2303/tools/lib:1;/software/cadence-2024-08/ULTRASIM181/tools.lnx86/lib:1;/software/cadence-2024-08/STRATUS2401/tools.lnx86/lib:1;/software/cadence-2024-08/SSV231/tools.lnx86/lib:1;/software/cadence-2024-08/SPECTRE231/tools.lnx86/lib:1;/software/cadence-2024-08/SPB231/tools.lnx86/lib:1;/software/cadence-2024-08/SIGRITY20240/tools.lnx86/lib:1;/software/cadence-2024-08/QUANTUS231/tools.lnx86/lib:1;/software/cadence-2024-08/PVS231/tools.lnx86/lib:1;/software/cadence-2024-08/PEGASUS232/tools.lnx86/lib:1;/software/cadence-2024-08/MVS211/tools.lnx86/lib:1;/software/cadence-2024-08/MODUS231/tools.lnx86/lib:1;/software/cadence-2024-08/LIBERATE231/tools.lnx86/lib:1;/software/cadence-2024-08/JLS211/tools.lnx86/lib:1;/software/cadence-2024-08/INTEGRAND63/ParaView-5.7.0-MPI-Linux-Python3.7-64bit/lib/python3.7/site-packages/numpy/lib:1;/software/cadence-2024-08/INNOVUS211/tools.lnx86/lib:1;/software/cadence-2024-08/INCISIVE152/vmanager/linux:1;/software/cadence-2024-08/INCISIVE152/tools.lnx86/lib:1;/software/cadence-2024-08/ICADVM201/tools.lnx86/lib:1;/software/cadence-2024-08/GENUS211/tools.lnx86/lib:1;/software/cadence-2024-08/CONFRML241/tools.lnx86/lib:1;/software/cadence-2024-08/CADENCEHELP/tools.lnx86/lib:1;/software/cadence-2024-08/ASSURA41/tools.lnx86/lib:1;/class/ece411/riscv/lib:3;/class/ece411/riscv/lib64:3;:1
+__LMOD_REF_COUNT_CNI_ROOT=/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/linux64/PyCellStudio:1
+_ModuleTable_Sz_=4
+_ModuleTable004_=c3lzdGVtQmFzZU1QQVRIID0gIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9Nb2R1bGVzL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmU6L2V0Yy9tb2R1bGVmaWxlcy9lbnY6L2V0Yy9tb2R1bGVmaWxlcy9jbGFzczovZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZSIsCn0K
+_ModuleTable003_=ImFjdGl2ZSIsCnVzZXJOYW1lID0gImNhbGlicmUvYW9rXzIwMjQuMV8yOC4xNiIsCndWID0gIiphb2suKl8uMDAwMDAyMDI0LjAwMDAwMDAwMS4qXy4wMDAwMDAwMjguMDAwMDAwMDE2Lip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwgIi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsICIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIiwgIi9ldGMvbW9kdWxlZmlsZXMvZW52IgosICIvZXRjL21vZHVsZWZpbGVzL2NsYXNzIiwgIi9ldGMvbW9kdWxlZmlsZXMvZXdzX3NvZnR3YXJlIiwKfSwK
+_ModuleTable002_=dWxlZmlsZXMvZXdzX3NvZnR3YXJlL2NhZGVuY2UvMjAyNC0wOC5sdWEiLApmdWxsTmFtZSA9ICJjYWRlbmNlLzIwMjQtMDgiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImNhZGVuY2UvMjAyNC0wOCIsCndWID0gIjAwMDAwMjAyNC4qemZpbmFsLS4wMDAwMDAwMDguKnpmaW5hbCIsCn0sCmNhbGlicmUgPSB7CmZuID0gIi9ldGMvbW9kdWxlZmlsZXMvZXdzX3NvZnR3YXJlL2NhbGlicmUvYW9rXzIwMjQuMV8yOC4xNi5sdWEiLApmdWxsTmFtZSA9ICJjYWxpYnJlL2Fva18yMDI0LjFfMjguMTYiLApsb2FkT3JkZXIgPSAyLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0g
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpbIlN5bm9wc3lzX3g4Ni02NCJdID0gewpmbiA9ICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZS9TeW5vcHN5c194ODYtNjQvMjAyNC5sdWEiLApmdWxsTmFtZSA9ICJTeW5vcHN5c194ODYtNjQvMjAyNCIsCmxvYWRPcmRlciA9IDMsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiU3lub3BzeXNfeDg2LTY0LzIwMjQiLAp3ViA9ICIwMDAwMDIwMjQuKnpmaW5hbCIsCn0sCmNhZGVuY2UgPSB7CmZuID0gIi9ldGMvbW9k
+_LMFILES_=/etc/modulefiles/ews_software/cadence/2024-08.lua:/etc/modulefiles/ews_software/calibre/aok_2024.1_28.16.lua:/etc/modulefiles/ews_software/Synopsys_x86-64/2024.lua
+XDG_SESSION_ID=55
+XDG_RUNTIME_DIR=/run/user/1172160
+XDG_DATA_DIRS=/home/lorenzo9/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/1172160/vscode-ipc-c77d87c8-a368-4f0f-8e06-0e863d1b40b0.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1172160/vscode-git-4b7c22df70.sock
+VSCODE_GIT_ASKPASS_NODE=/home/lorenzo9/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/lorenzo9/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERISIUM_DEBUG_ROOT=/software/cadence-2024-08/VERISIUMDEBUG2403
+VERDI_HOME=/software/Synopsys-2024_x86_64/verdi/W-2024.09
+VCS_PYTHON3=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UVM_HOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09/etc/uvm-1.2
+UNAME=/bin/uname
+TOP_TB=gen_top
+TOOL_HOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64
+TERM_PROGRAM_VERSION=1.98.1
+TERM_PROGRAM=vscode
+SYNOPSYS_LC_ROOT=/software/Synopsys-2024_x86_64/lc/W-2024.09
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSH_CONNECTION=99.189.79.249 62567 192.17.9.162 22
+SSH_CLIENT=99.189.79.249 62567 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SOFTPATH=/software
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_VHDL_WRAPPER_KDB=1
+SNPS_VCS_PYTHON3=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SIGRITY_EDA_DIR=/software/cadence-2024-08/SIGRITY20240
+SIGRITYPATH=tools/bin
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SALT_LICENSE_SERVER=1717@mentor.webstore.illinois.edu
+PDK_DIR=/class/ece425/FreePDK45
+OVA_UUM=0
+OPENRAM=/class/ece411/OpenRAM
+MSI2LMP_LIBRARY=/usr/share/lammps/frc_files
+MODULESHOME=/usr/share/lmod/lmod
+MODULEPATH_ROOT=/usr/share/modulefiles
+MODULEPATH=/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/ews_software
+MGC_HOME=/software/calibre-aok_2024.1_28.16/aok_cal_2024.1_28.16
+MFLAGS=
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=1
+MAKEFLAGS=TOP_TB=gen_top
+LOADEDMODULES=cadence/2024-08:calibre/aok_2024.1_28.16:Synopsys_x86-64/2024
+LMOD_sys=Linux
+LMOD_arch=x86_64
+LMOD_VERSION=8.7.55
+LMOD_SETTARG_FULL_SUPPORT=no
+LMOD_ROOT=/usr/share/lmod
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LMODARCH=x86_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+LAMMPS_POTENTIALS=/usr/share/lammps/potentials
+HISTCONTROL=ignoredups
+GIT_ASKPASS=/home/lorenzo9/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/extensions/git/dist/askpass.sh
+FREEPDK45=/class/ece411/freepdk-45nm
+FPATH=/usr/share/lmod/lmod/init/ksh_funcs
+ECE425_GUI_TIMEOUT=1h
+ECE411_GUI_TIMEOUT=1h
+DW=/software/Synopsys-2024_x86_64/icc/W-2024.09/dw
+DISTARCH=Linux-x86_64
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1172160/bus
+COLORTERM=truecolor
+CNI_ROOT=/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/linux64/PyCellStudio
+CNI_PLAT_ROOT=/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/linux64/PyCellStudio/plat_linux_gcc73_64
+CDSHOME=/software/cadence-2024-08/IC231
+CBP2016=/class/ece411/cbp2016
+CALIBRE_HOME=/software/calibre-aok_2024.1_28.16/aok_cal_2024.1_28.16
+CADENCE_CURR_IUS=/software/cadence-2024-08/INCISIVE152
+CADENCE_CURR_IC=/software/cadence-2024-08/IC231
+CADENCE_CURR=/software/cadence-2024-08
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then_ case "$-" in _ *v*x*)_ __lmod_sh_dbg='vx'_ ;;_ *v*)_ __lmod_sh_dbg='v'_ ;;_ *x*)_ __lmod_sh_dbg='x'_ ;;_ esac;_ fi;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ set +$__lmod_sh_dbg;_ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;_ fi;_ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";_ __lmod_my_status=$?;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ echo "Shell debugging restarted" 1>&2;_ set -$__lmod_sh_dbg;_ fi;_ unset __lmod_sh_dbg;_ return $__lmod_my_status_}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"_}
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+0
+0
+13
+1741823948 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/generator.sv
+1741040322 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/a53.sv
+1740698672 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/mult_test.sv
+1741816111 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/swap.sv
+1742422232 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/inheritance.sv
+1740692010 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/first_class.sv
+1742509725 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/gen.sv
+1741226209 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hvl/thread.sv
+1742509706 /home/lorenzo9/Documents/ChipForge/udemy/sim/../hdl/and.sv
+1725332743 /software/Synopsys-2024_x86_64/vcs/W-2024.09/include/cm_vcsd.tab
+1723953532 /software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+1740433930 ../vcs_warn.config
+1725332768 /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcsdp_lite.tab
+4
+1725336088 /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvirsim.so
+1725334290 /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/liberrorinf.so
+1725334282 /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so
+1725334269 /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvfs.so
+1742510010 gen_top.daidir
+-1 partitionlib
